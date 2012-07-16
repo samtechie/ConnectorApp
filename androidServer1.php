@@ -2,16 +2,12 @@
 
 
 
-/*
-// This is a simple quotation server. You of course will want to do something slightly more
-// interesting, but hey, this isn't bad.
-*/
+
 
 header(''); // send an empty header not to mess with stuff.
 
 // We start with a basic API key. Assuming there isn't a user authentication
-// element to the app, this is usually sufficient, although I would highly
-// recommend using something like HTTPS to create some sort of security.
+
 
 if($_POST['APIKey'] != "ultraQuote")
 {
