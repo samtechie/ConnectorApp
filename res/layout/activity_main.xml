@@ -18,20 +18,17 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp"
+        android:layout_marginBottom="22dp"
         android:ems="10"
-        android:inputType="textMultiLine" >
-
-        <requestFocus />
-    </EditText>
+        android:inputType="textMultiLine" />
 
     <ProgressBar
         android:id="@+id/progressBar1"
-        style="@style/AppTheme"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/editText1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp" />
+        android:layout_marginBottom="24dp" />
 
 </RelativeLayout>
